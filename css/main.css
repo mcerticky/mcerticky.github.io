@@ -2454,6 +2454,7 @@ header .logo a {
 	-webkit-animation-delay: -0.32s;
 	animation-delay: -0.32s;
 }
+
 .s-loader .bounce2 {
 	-webkit-animation-delay: -0.16s;
 	animation-delay: -0.16s;
@@ -2595,5 +2596,6 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #8e5700;
 }
+
 
 /*# sourceMappingURL=main.css.map */
