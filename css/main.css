@@ -1042,8 +1042,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .section-intro h5 {
 	color: #FFA71A;
-	font-size: 1.6rem;
-	line-height: 1.875;
+	font-size: 2.4rem;
+	line-height: 1.25;
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
 }
