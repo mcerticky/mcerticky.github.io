@@ -1783,6 +1783,157 @@ header .logo a {
 }
 
 
+
+
+
+#publications .publications-header {
+	text-align: center;
+}
+#publications .publications-header h2 {
+	color: #FFA71A;
+}
+
+#publications .publications-header {
+	text-align: center;
+}
+#publications .publications-header h2 {
+	color: #FFA71A;
+}
+
+#publications .publications-timeline {
+	max-width: 980px;
+}
+#publications .timeline-wrap {
+	position: relative;
+}
+#publications .timeline-wrap::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	left: 35%;
+	top: 0;
+}
+#publications .timeline-block {
+	position: relative;
+	padding-top: 0.5rem;
+}
+#publications .timeline-ico {
+	height: 4.8rem;
+	width: 4.8rem;
+	line-height: 4.8rem;
+	background: #313131;
+	border-radius: 50%;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	left: 35%;
+	top: .9rem;
+	margin-left: -2.4rem;
+}
+
+
+#publications .timeline-header {
+	float: left;
+	width: 35%;
+	padding-right: 90px;
+	text-align: right;
+}
+
+#publications .timeline-header p {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.2rem;
+	color: #888888;
+}
+#publications .timeline-content {
+	margin-left: 35%;
+	padding-left: 60px;
+}
+
+
+
+/**
+ * responsive:
+ * publications
+ * ------------------------------------------------------------------- 
+ */
+@media only screen and (max-width:1024px) {
+	#publications .timeline-header {
+		padding-right: 50px;
+	}
+	#publications .timeline-header h3 {
+		font-size: 1.8rem;
+	}
+	#publications .timeline-header p {
+		font-size: 1.4rem;
+	}
+	#publications .timeline-content {
+		padding-left: 50px;
+	}
+}
+@media only screen and (max-width:768px) {
+	#publications .timeline-wrap::before {
+		left: 2.4rem;
+	}
+	#publications .timeline-ico {
+		left: 2.4rem;
+	}
+	#publications .timeline-header {
+		float: none;
+		width: auto;
+		padding-right: 15px;
+		text-align: left;
+	}
+	#publications .timeline-header h3 {
+		font-size: 2rem;
+	}
+	#publications .timeline-header p {
+		font-size: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	#publications .timeline-content {
+		margin: 0;
+	}
+	#publications .timeline-content h4 {
+		padding-bottom: 0;
+		padding-top: 2.1rem;
+		margin-bottom: .6rem;
+		font-size: 1.7rem;
+	}
+	#publications .timeline-content h4::after {
+		bottom: auto;
+		top: 0;
+	}
+	#publications .timeline-header, #publications .timeline-content {
+		padding-left: 7rem;
+	}
+}
+@media only screen and (max-width:480px) {
+	#publications .publications-header h2 {
+		font-size: 2.2rem;
+	}
+	#publications .timeline-wrap::before {
+		left: 1.8rem;
+	}
+	#publications .timeline-ico {
+		height: 3.6rem;
+		width: 3.6rem;
+		line-height: 3.6rem;
+		left: 1.8rem;
+		margin-left: -1.8rem;
+		font-size: 1.5rem;
+	}
+	#publications .timeline-header, #publications .timeline-content {
+		padding-left: 5.5rem;
+	}
+}
+
+
+
+
+
 /** 
  * ===================================================================
  * 13. portfolio - (_layout.scss)
