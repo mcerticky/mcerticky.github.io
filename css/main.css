@@ -1789,10 +1789,6 @@ header .logo a {
  */
 
 /* Style the button that is used to open and close the collapsible content */
-#publications span{
-	padding: 10px;
-    border: 2px solid #FFA71A;
-}
 
 #publications span:hover{
 	padding: 10px;
