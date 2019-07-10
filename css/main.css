@@ -1783,6 +1783,58 @@ header .logo a {
 }
 
 
+/**
+ * publications
+ * ------------------------------------------------------------------- 
+ */
+
+/* Style the button that is used to open and close the collapsible content */
+#publications span{
+	padding: 10px;
+    border: 2px solid #FFA71A;
+}
+
+#publications span:hover{
+	padding: 10px;
+    border: 2px solid #313131;
+}
+
+#publications .collapsible {
+  background-color: #ebebeb;
+  
+  color: #FFA71A;
+  width: 100%;
+  font-size: 25px;
+  margin: 0px;
+}
+
+#publications .active, .collapsible{
+  background-color: #313131;
+  color: #FFA71A;
+  width: 100%;
+  font-size: 25px;
+}
+
+
+#publications .active, .collapsible:hover {
+  background-color: #FFA71A;
+  color: #313131;
+  width: 100%;
+}
+
+#publications .collapsible:hover{
+  background-color: #FFA71A;
+  color: #313131;
+  width: 100%;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+#publications .content {
+  background-color: #eee;
+  text-align: center;
+  display: none;
+  overflow: hidden;
+}
 
 
 

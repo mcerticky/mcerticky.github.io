@@ -21,7 +21,8 @@
 	<title>Martin Certicky</title>
 	<meta name="description" content="I know words. I have the best words.">  
 	<meta name="google-site-verification" content="9RkdMKOkHZMaVNtlsBqdQxuG4r1tg3NvwrZn_Q6wkiU" />
-	<meta name="author" content="">
+	<meta name="author" content="Martin Certicky">
+  <meta name="keywords" content="Martin Certicky, martin certicky, martin, certicky, mcerticky, rhymak, Čertický, čertický">
 
    <!-- mobile specific metas
    ================================================== -->
@@ -419,14 +420,32 @@
 
    </section> <!-- /features -->
 
-   <section id="publications" class="grey-section">
+
+
+  <section id="publications" class="content">
+    <button class="collapsible"><span>Publications</span></button>
+  <div class="content">
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
  		<div class="row publications-timeline">
-
-           <div class="col-twelve publications-header">
-
-               <h2>Publications</h2>
-
-           </div> <!-- /resume-header -->
 
            <div class="col-twelve">
 
@@ -449,7 +468,7 @@
                        </div>
                        <div class="timeline-content">
                            <h4>Martin Čertický, Michal Čertický</h4>
-                           <a href="http://agents.fel.cvut.cz/~certicky/files/publications/scyr2015.pdf"><p>Evolving Reactive Micromanagement Controller for Real-Time Strategy Games</p></a>
+                           <a href="https://certicky.github.io/files/publications/scyr2015.pdf"><p>Evolving Reactive Micromanagement Controller for Real-Time Strategy Games</p></a>
                        </div>
                    </div> 
                    <!-- /timeline-block -->
