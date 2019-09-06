@@ -1139,8 +1139,8 @@ header .logo a {
 .menu-toggle span {
 	display: block;
 	background-color: #FFA71A;
-	width: 24px;
-	height: 3px;
+	width: 36px;
+	height: 4px;
 	margin-top: -1.5px;
 	font: 0/0 a;
 	text-shadow: none;
@@ -1790,6 +1790,10 @@ header .logo a {
 
 /* Style the button that is used to open and close the collapsible content */
 
+#publications{
+    border: 1px solid #313131;
+}
+
 #publications span:hover{
 	padding: 10px;
     border: 2px solid #313131;
@@ -1806,6 +1810,7 @@ header .logo a {
 
 #publications .active, .collapsible{
   background-color: #313131;
+  padding: 1px;
   color: #FFA71A;
   width: 100%;
   font-size: 25px;
